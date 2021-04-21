@@ -2,8 +2,9 @@
 
 @section('content')
 <div class="container">
+<h1>{{ $msg }}</h1>
     <div class="row justify-content-center">
-    <h1>{{ $msg }}</h1>
+    
         <div class="col-md-8">
             <div class="card">
                 @foreach ($posts as $book)
