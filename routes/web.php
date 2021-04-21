@@ -20,5 +20,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\PostsController::class, 'index'])->name('home');
 
-Route::get('/posts', [App\Http\Controllers\PostsController::class, 'index'])->name('posts');
+// Route::get('/posts', [App\Http\Controllers\PostsController::class, 'index'])->name('posts');
