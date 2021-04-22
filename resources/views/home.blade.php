@@ -4,10 +4,8 @@
 <div class="container">
 <h1>{{ $msg }}</h1>
     <div class="row justify-content-center">
-    
         <div class="col-md-8">
             <div class="card">
-                @foreach ($posts as $book)
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
                 <div class="card-body">
@@ -17,9 +15,8 @@
                         </div>
                     @endif
 
-                    {{ $book->message }}
+                    {{ __('You are logged ') }}
                 </div>
-                @endforeach
             </div>
         </div>
     </div>
