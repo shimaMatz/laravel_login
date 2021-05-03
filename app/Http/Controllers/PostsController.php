@@ -10,6 +10,6 @@ class PostsController extends Controller
     public function index()
     {
         $posts = DB::select('select * from posts');
-        return view('home', ['msg' => '本一覧','posts' => $posts]);
+        return view('post', ['msg' => '本一覧','posts' => $posts]);
     }
 }

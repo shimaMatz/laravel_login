@@ -23,5 +23,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/posts', [App\Http\Controllers\PostsController::class, 'index'])->name('posts');
 
-Route::get('/students', [App\Http\Controllers\StudentsController::class, 'index'])->name('students');
+// Route::get('/students', [App\Http\Controllers\UsersController::class, 'index'])->name('students');
 
