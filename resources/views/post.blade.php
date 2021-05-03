@@ -58,7 +58,7 @@
             <div class="card w-85" style="margin-top: 15px; margin-bottom:15px">
                 <div class="card-body">
                     <h5 class="card-title">師匠募集！！！急募</h5>
-                    <p class="card-text">{{ $post->message}}</p>
+                    <p class="card-text">{{ $post->contents}}</p>
                     <a href="#" class="btn btn-primary">メッセージを送る</a>
                 </div>
             </div>
