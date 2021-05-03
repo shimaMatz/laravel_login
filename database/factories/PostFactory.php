@@ -24,8 +24,7 @@ class PostFactory extends Factory
     public function definition()
     {
         return [
-            'user_id' => $this->faker->	numberBetween(1,200),
-            'message' => $this->faker->realText(100),
+            'contents' => $this->faker->realText(100),
             'flag' => $this->faker->numberBetween(0,1),
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
